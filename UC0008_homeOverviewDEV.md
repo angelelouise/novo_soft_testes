@@ -13,7 +13,7 @@ Não se aplica.
 
 #### FP
 1. Desenvolvedor aciona a funcionalidade de Home;
-1. Sistema exibe as tarefas do GAS que estão no status "Aguardando Correções" e o menu de utilização; **[[BD01](#bd01)]**, **[[BD02](#bd02)]**
+1. Sistema exibe as tarefas do GAS que estão no status "Aguardando Correções" e/ou "Testando" e o menu de utilização; **[[BD01](#bd01)]**, **[[BD02](#bd02)]**
 1. Sistema exibe as tarefas do GAS que estão no status "Aguardando Correções" atribuídas para o desenvolvedor logado; **[[BD01](#bd01)]**
 1. Desenvolvedor seleciona a opção de visualizar relatório de erros para uma tarefa; **[[FA02](#fa02)]**
 1. Inicia a funcionalidade UC0009_VisualizarRelatórioDEV;

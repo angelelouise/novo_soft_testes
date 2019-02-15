@@ -17,7 +17,7 @@ Não se aplica.
 1. Exibe a listagem de erros da tarefa; **[[BD01](#bd01)]**, **[[FA01](#fa01)]**, **[[FA02](#fa02)]**, **[[FA03](#fa03)]**, **[[FA04](#fa04)]**, **[[FA05](#fa05)]**
 1. Desenvolvedor marca como corrigido todos os erros;
 1. Atribui o status "Corrigido" ao erro e adiciona ao histórico;
-1. Desenvolvedor aciona a opção de finalizar correção; **[[RN01](#RN01)]**
+1. Desenvolvedor aciona a opção de finalizar correção; **[[RN01](#RN01)]**,**[[RN02](#RN02)]**
 1. Persiste as informações no banco.
 1. O caso de uso é finalizado.
 
@@ -105,6 +105,9 @@ Não se aplica.
 
 #### RN01
 - Só deve ser possível finalizar a correção se todos os erros estiverem no status "Corrigido" e/ou "Desconsiderados".
+
+#### RN02
+- Ao finalizar a correção deve-se alterar ao status da tarefa relacionada para "Pronta para Integrar".
 
 ## 8. Documentos Relacionados
 Não se aplica.
